@@ -1,4 +1,4 @@
-package Factory;
+package Builder;
 
 public class MailSender implements Sender{
 
