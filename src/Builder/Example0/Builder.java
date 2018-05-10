@@ -1,4 +1,4 @@
-package Builder;
+package Builder.Example0;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,14 +8,14 @@ public class Builder {
 	public void produceMailSender(int count){  
 	   for(int i=0; i<count; i++){  
 	       list.add(new MailSender());  
-	       System.out.println("mail");
+	       list.get(i).send();
 	   }  
 	}  
 
     public void produceSmsSender(int count){  
 		for(int i=0; i<count; i++){  
 		    list.add(new SmsSender());  
-		    System.out.println("sms");
+		    list.get(i).send();
 		}  
     }  
 }

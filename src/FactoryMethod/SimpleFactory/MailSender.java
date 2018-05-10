@@ -1,4 +1,4 @@
-package Builder;
+package FactoryMethod.SimpleFactory;
 
 public class MailSender implements Sender{
 

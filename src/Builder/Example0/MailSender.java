@@ -1,4 +1,4 @@
-package FactoryMethod;
+package Builder.Example0;
 
 public class MailSender implements Sender{
 

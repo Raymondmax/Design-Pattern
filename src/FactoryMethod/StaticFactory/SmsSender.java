@@ -1,4 +1,4 @@
-package FactoryMethod;
+package FactoryMethod.StaticFactory;
 
 public class SmsSender implements Sender{
 
